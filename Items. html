@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الأغراض المعروضة - منصة المفقودات</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- شريط التنقل -->
+    <header class="navbar">
+        <div class="logo">🔍 أثر (المفقودات)</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">الرئيسية</a></li>
+                <li><a href="items.html" class="active">الأغراض</a></li>
+                <li><a href="report.html">أبلغ عن غرض</a></li>
+                <li><a href="contact.html">تواصل معنا</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- قسم الأغراض والبحث -->
+    <main class="container">
+        <section class="page-title">
+            <h2>قائمة الأغراض المفقودة والموجودة</h2>
+            <p>ابحث عن غرضك أو تصفح آخر البلاغات المسجلة</p>
+        </section>
+
+        <!-- شريط البحث -->
+        <div class="search-bar">
+            <input type="text" placeholder="ابحث باسم الغرض أو المكان...">
+            <button>بحث</button>
+        </div>
+
+        <!-- شبكة البطاقات -->
+        <div class="cards-grid">
+            <div class="card">
+                <span class="badge lost">مفقود</span>
+                <img src="https://via.placeholder.com/250x140" alt="صورة">
+                <div class="card-body">
+                    <h3>حقيبة يد نسائية</h3>
+                    <p><strong>المكان:</strong> الجامعة - قرب المبنى الرئيسي</p>
+                    <p><strong>التاريخ:</strong> 2026-10-22</p>
+                    <button class="details-btn">التفاصيل والتواصل</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <span class="badge found">موجود</span>
+                <img src="https://via.placeholder.com/250x140" alt="صورة">
+                <div class="card-body">
+                    <h3>مفاتيح سيارة</h3>
+                    <p><strong>المكان:</strong> الحديقة العامة</p>
+                    <p><strong>التاريخ:</strong> 2026-10-21</p>
+                    <button class="details-btn">التفاصيل والتواصل</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <span class="badge lost">مفقود</span>
+                <img src="https://via.placeholder.com/250x140" alt="صورة">
+                <div class="card-body">
+                    <h3>محفظة جلدية سوداء</h3>
+                    <p><strong>المكان:</strong> المواصلات العامة</p>
+                    <p><strong>التاريخ:</strong> 2026-10-20</p>
+                    <button class="details-btn">التفاصيل والتواصل</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- التذييل -->
+    <footer>
+        <p>جميع الحقوق محفوظة &copy; 2026 - منصة المفقودات والموجودات</p>
+    </footer>
+
+</body>
+</html>
