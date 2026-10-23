@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تواصل معنا - منصة المفقودات</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- شريط التنقل -->
+    <header class="navbar">
+        <div class="logo">🔍 أثر (المفقودات)</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">الرئيسية</a></li>
+                <li><a href="items.html">الأغراض</a></li>
+                <li><a href="report.html">أبلغ عن غرض</a></li>
+                <li><a href="contact.html" class="active">تواصل معنا</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- صفحة الاتصال -->
+    <main class="container">
+        <section class="contact-section">
+            <h2>تواصل مع إدارة المنصة</h2>
+            <p>هل تواجه مشكلة أو لديك استفسار؟ نحن هنا لمساعدتك دائماً.</p>
+
+            <div class="contact-grid">
+                <!-- معلومات التواصل -->
+                <div class="contact-info">
+                    <h3>معلومات الاتصال</h3>
+                    <p>📍 <strong>العنوان:</strong> الجزيرة، السودان</p>
+                    <p>📧 <strong>البريد الإلكتروني:</strong> support@athar-lostfound.com</p>
+                    <p>📞 <strong>رقم الهاتف:</strong> +249 900 000 000</p>
+                </div>
+
+                <!-- نموذج مراسلة الدعم -->
+                <form class="custom-form">
+                    <div class="form-group">
+                        <label>الاسم الكامل:</label>
+                        <input type="text" placeholder="اكتب اسمك...">
+                    </div>
+                    <div class="form-group">
+                        <label>البريد الإلكتروني:</label>
+                        <input type="email" placeholder="example@domain.com">
+                    </div>
+                    <div class="form-group">
+                        <label>الرسالة:</label>
+                        <textarea rows="4" placeholder="كيف يمكننا مساعدتك؟"></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">إرسال الرسالة</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- التذييل -->
+    <footer>
+        <p>جميع الحقوق محفوظة &copy; 2026 - منصة المفقودات والموجودات</p>
+    </footer>
+
+</body>
+</html>
