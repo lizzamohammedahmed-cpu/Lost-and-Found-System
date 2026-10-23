@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>منصة المفقودات والموجودات - الرئيسية</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- شريط التنقل المشترك -->
+    <header class="navbar">
+        <div class="logo">🔍 أثر (المفقودات)</div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">الرئيسية</a></li>
+                <li><a href="items.html">الأغراض</a></li>
+                <li><a href="report.html">أبلغ عن غرض</a></li>
+                <li><a href="contact.html">تواصل معنا</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- القسم الرئيسي (Hero) -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>فقدت شيئاً غالیاً أو وجدت غرضاً؟</h1>
+            <p>منصتك الآمنة للمساعدة في إيجاد الأغراض المفقودة وإرجاعها لأصحابها بكل سهولة وأمان.</p>
+            <div class="hero-btns">
+                <a href="report.html" class="btn primary">أبلغ عن مفقود / موجود</a>
+                <a href="items.html" class="btn secondary">تصفح الأغراض</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- نبذة سريعة -->
+    <section class="features">
+        <h2>كيف تعمل المنصة؟</h2>
+        <div class="features-grid">
+            <div class="feature-box">
+                <h3>1. أبلغ</h3>
+                <p>سواء فقدت شيئاً أو وجدته، قم بتسجيل التفاصيل في نموذج الإبلاغ.</p>
+            </div>
+            <div class="feature-box">
+                <h3>2. ابحث</h3>
+                <p>تصفح قائمة الأغراض المُبلغ عنها أو ابحث بالاسم والمكان.</p>
+            </div>
+            <div class="feature-box">
+                <h3>3. استرد</h3>
+                <p>تواصل مع الشخص المبلغ واستعد غرضك بكل أمان.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- التذييل -->
+    <footer>
+        <p>جميع الحقوق محفوظة &copy; 2026 - منصة المفقودات والموجودات</p>
+    </footer>
+
+</body>
+</html>
